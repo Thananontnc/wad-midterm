@@ -3,19 +3,16 @@
   padding: 20px;
 }
 
-/* Header */
 #h1 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-/* Data Area */
 #data-area {
   margin-top: 20px;
 }
 
-/* Table basic style */
 .item-table {
   border-collapse: collapse;
   text-align: left;
@@ -37,19 +34,16 @@
   border-bottom: 1px solid #ccc;
 }
 
-/* Column specific alignment */
 #col-item-category,
 #col-item-action {
   text-align: center;
 }
 
-/* Align the content of the category and action columns in the body */
 .item-table td:nth-child(3),
 .item-table td:nth-child(5) {
   text-align: center;
 }
 
-/* Input Styles */
 input[type="text"],
 input[type="number"],
 select {
@@ -59,10 +53,8 @@ select {
   width: 90%;
 }
 
-/* Add Button */
 #btn-add {
   background-color: #3b82f6;
-  /* Blue color */
   color: white;
   border: none;
   padding: 8px 16px;
@@ -82,7 +74,6 @@ select {
   filter: invert(21%) sepia(95%) saturate(7432%) hue-rotate(358deg) brightness(102%) contrast(118%);
 }
 
-/* Error Message */
 #error-message {
   color: red;
   margin-top: 10px;
