@@ -44,6 +44,7 @@
   text-align: center;
 }
 
+/* Input Styles */
 input[type="text"],
 input[type="number"],
 select {
@@ -51,6 +52,17 @@ select {
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 90%;
+}
+
+/* Hide spin buttons for input type number */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 #btn-add {
